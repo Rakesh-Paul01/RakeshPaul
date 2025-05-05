@@ -1,7 +1,11 @@
 # Computer Vision Researcher
 
 ## Exprience 
-### Research Fellow at BITS-Pilani, Goa Campus
+### Research Fellow @BITS-Pilani, Goa Campus
+
+### Deep Learning Intern @IIT-Goa
+
+### Data Analyst @MacBrout Engineering Pvt. Ltd
 
 
 ## Education
