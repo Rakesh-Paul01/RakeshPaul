@@ -122,6 +122,27 @@
       transform: translateY(-5px);
     }
 
+    /* Publications */
+    .publications ul {
+      list-style: none;
+      padding: 0;
+    }
+    .publications li {
+      background: white;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    body.dark .publications li {
+      background: #1e1e1e;
+      box-shadow: 0 2px 8px rgba(255,255,255,0.05);
+    }
+    .publications a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
     /* Footer */
     footer {
       text-align: center;
@@ -167,7 +188,6 @@
 
   <header>
     <img src="profile_image.png" alt="Profile Picture">
-    
     <h1>Rakesh Paul</h1>
     <p>Python Developer | AI Enthusiast | Open Source Contributor</p>
     <button class="toggle-dark">🌙 Dark Mode</button>
@@ -176,15 +196,19 @@
   <nav>
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section id="about">
     <h2>About Me</h2>
     <p>
-      Hi! I'm Rakesh, a passionate Python programmer with experience in AI, data science,
-      and building scalable applications. I enjoy contributing to open-source projects
-      and creating tools that help people.
+      Hi! I'm Rakesh, a passionate Python programmer with expertise in computer vision, AI, 
+      and data science. I specialize in developing vision-based applications, from real-time 
+      image and video analysis to deep learning models for detection and segmentation. 
+      I enjoy building practical tools with real-world impact and am currently focusing on 
+      3D vision—exploring areas such as robotic navigation, 3D mapping (SLAM), Neural Radiance Fields (NeRF), 
+      and Gaussian Splatting—to create high-quality solutions for real-life applications.
     </p>
   </section>
 
@@ -206,10 +230,28 @@
     </div>
   </section>
 
+  <section id="publications" class="publications">
+    <h2>Publications</h2>
+    <ul>
+      <li>
+        <strong>Shitala Prasad, Rakesh Paul, Mayur Kamat</strong>
+        <em>“SequenceOut: Boosting CNNs by Freezing Layers”</em>  
+        Published at <strong>IEEE/CVF WACV 2025</strong>.  
+        [<a href="https://doi.org/10.1109/LSP.2025.3553430" target="_blank">Paper</a>]
+      </li>
+      <li>
+        <strong>Rakesh Paul, Aaron Rebello, Kunal Korgaonkar</strong> 
+        <em>“SurgiSeg: Surgical Tool Segmentation Dataset for Laparoscopic Surgeries”</em>  
+        Under Review at <strong>WACV 2026</strong>.  
+        [<a href="#" target="_blank">Preprint</a>]
+      </li>
+    </ul>
+  </section>
+
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:rakeshpaul0142@gmail.com">rakesh@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/Rakesh-Paul01" target="_blank">github.com/yourusername</a></p>
+    <p>Email: <a href="mailto:rakeshpaul0142@gmail.com">rakeshpaul0142@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Rakesh-Paul01" target="_blank">https://github.com/Rakesh-Paul01</a></p>
   </section>
 
   <footer>
